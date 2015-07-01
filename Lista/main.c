@@ -14,7 +14,7 @@ int main(void)
     arquivo = fopen("C:\\Users\\Sterfanno\\Desktop\\arq.txt","r");
     
  
-        
+        /*
 
        
         do{
@@ -33,10 +33,10 @@ int main(void)
         
     
         
-    listaPrintComeco(*lista);
+   /* listaPrintComeco(*lista);
     listaPrintInverso(*lista);
     fclose(arquivo);
-    /*
+    */
        menu();
     printf("Escolha uma opcoe: ");
     scanf("%d", &opcao);
@@ -101,7 +101,6 @@ int main(void)
         printf("Escolha uma opcoe: ");
         scanf("%d", &opcao);
     }
-    */
    
     listaDeletar(*lista);
     printf("\nLista DELETADA!!!\n");
